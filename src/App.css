@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+/* Reduce vertical spacing */
+.p-organizationchart .p-organizationchart-line-down {
+    height: 10px !important;
+  }
+  
+  /* Reduce horizontal spacing */
+  .p-organizationchart .p-organizationchart-line-left,
+  .p-organizationchart .p-organizationchart-line-right {
+    width: 10px !important;
+  }
+  
