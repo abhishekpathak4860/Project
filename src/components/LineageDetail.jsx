@@ -21,7 +21,7 @@ export default function LineageDetail() {
         <img
           src={`/${image}`}
           alt={`Node ${label}`}
-          className="w-24 h-24 mx-auto mb-4"
+          className="w-full h-full object-cover rounded-full"
         />
         <h2 className="text-xl font-bold mb-2">{name}</h2>
         <p className="text-gray-600 mb-4">{details}</p>
