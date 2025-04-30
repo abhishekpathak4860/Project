@@ -8,7 +8,7 @@ const Node = ({ label, name = "Name", children = [], details, image }) => {
 
   const handleClick = () => {
     navigate(`/details/${label}`, {
-      state: { label, name, details },
+      state: { label, name, details, image },
     });
   };
 

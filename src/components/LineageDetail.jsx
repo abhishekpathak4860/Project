@@ -13,13 +13,13 @@ export default function LineageDetail() {
     );
   }
 
-  const { name, details } = state;
+  const { name, details, image } = state;
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-6">
       <div className="bg-white rounded-lg shadow-lg p-6 max-w-sm w-full text-center">
         <img
-          src="/vite.svg"
+          src={`/${image}`}
           alt={`Node ${label}`}
           className="w-24 h-24 mx-auto mb-4"
         />
